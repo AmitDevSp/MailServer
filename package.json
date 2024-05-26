@@ -1,0 +1,26 @@
+{
+  "name": "mailserver",
+  "version": "1.0.0",
+  "main": "./dist/app.js",
+  "scripts": {
+    "build": "npx tsc && copy .env dist\\.env",
+    "clean": "if exist dist rmdir /s /q dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.15",
+    "@types/typescript": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13",
+    "pm2": "^5.3.1",
+    "winston": "^3.13.0"
+  }
+}
