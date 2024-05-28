@@ -27,5 +27,7 @@ To get started with Mail Server, follow these steps:
 The mail server can be configured via the `config` directory. Here are some key configuration options:
 
 - **SMTP server ip**: Set up SMTP server ip for sending emails.
-- **IMAP server port**: Set up SMTP server port for sending emails.
+- **SMTP server port**: Set up SMTP server port for sending emails.
+- **Server ip**: Set up Server ip.
+- **Server port**: Set up Server port.
 
